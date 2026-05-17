@@ -1,0 +1,28 @@
+# Netbeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+*.class
+
+# Processing
+applet/
+application.*/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+*.iml
+.idea/
+*.swp
+*.swo
+
+# Compilados Java
+*.jar
+*.war
+*.ear
