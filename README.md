@@ -95,9 +95,9 @@ La estética visual del juego se inspira en el cyberpunk oscuro: neón sobre neg
 
 | Integrante | Rol inicial |
 |---|---|
-| Luis Padilla | Gerente del Proyecto |
-| Moises Jacome | Diseñador |
-| Ferney Jimenez | Desarrollador |
+| Luis Padilla | --- |
+| Moises Jacome | --- |
+| Ferney Jimenez | --- |
 
 > *Los roles se intercambian durante el desarrollo según las reglas del laboratorio.*
 
