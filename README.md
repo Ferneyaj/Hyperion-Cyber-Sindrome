@@ -87,7 +87,7 @@ La estética visual del juego se inspira en el cyberpunk oscuro: neón sobre neg
 
 </div>
 
-> **Nota:** La imagen conceptual fue generada con IA a partir de una referencia externa. No es obra original del equipo ni forma parte del juego. Se incluye únicamente como referencia de mood board para ilustrar la dirección estética del proyecto.
+> **Nota:** La imagen conceptual fue generada con IA a partir de una referencia externa. No es obra original del equipo ni forma parte del juego. SSe incluye únicamente como referencia de mood board para ilustrar la dirección estética del proyecto. Está previsto reemplazarla por una ilustración propia del equipo en una versión futura.
 
 ---
 
