@@ -128,10 +128,7 @@ La estética visual del juego se inspira en el cyberpunk oscuro: neón sobre neg
 ### Prueba online:
 - Se adapto para poder correr en el navegador, esa version no representa ni la version oficial ni la que participara en la feria
 - Creada con fines de pruebas y para poder compartir el proyecto de manera mas sencilla
-  
-  
-
-
+  > 🔗 [Ver en GitHub Pages](https://ferneyaj.github.io/Hyperion-Cyber-Sindrome/)
 
 ---
 
