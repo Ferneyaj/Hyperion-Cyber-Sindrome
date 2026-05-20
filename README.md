@@ -121,6 +121,18 @@ La estética visual del juego se inspira en el cyberpunk oscuro: neón sobre neg
 
 ---
 
+---
+
+## 🎮 Prueba Online
+
+### Prueba online:
+- Se adapto para poder correr en el navegador, esa version no representa ni la version oficial ni la que participara en la feria
+- Creada con fines de pruebas y para poder compartir el proyecto de manera mas sencilla
+  
+  
+
+
+
 <div align="center">
 
 *Team Breaking Bugs — Laboratorio Final 2026_10*
