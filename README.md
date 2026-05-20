@@ -133,8 +133,11 @@ La estética visual del juego se inspira en el cyberpunk oscuro: neón sobre neg
 
 
 
+---
+
 <div align="center">
 
 *Team Breaking Bugs — Laboratorio Final 2026_10*
 
 </div>
+
