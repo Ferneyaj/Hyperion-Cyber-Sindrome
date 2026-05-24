@@ -67,11 +67,11 @@ let btnPositivoX, btnNormalX, btnNegativoX, btnW2, btnH2, btnY2m;
 // PRELOAD
 // ==========================================
 function preload() {
-  ImagenFondo  = loadImage('ImagenFondo.jpg');
-  Logo         = loadImage('Logo.png');
-  WalterSprite = loadImage('WalterSprite.png');
-  BossSprite   = loadImage('Jefe.png');
-  ImagenFondo2 = loadImage('ImagenFondo2.png');
+  ImagenFondo  = loadImage('web/ImagenFondo.jpg');
+  Logo         = loadImage('web/Logo.png');
+  WalterSprite = loadImage('web/WalterSprite.png');
+  BossSprite   = loadImage('web/Jefe.png');
+  ImagenFondo2 = loadImage('web/ImagenFondo2.png');
 }
 
 // ==========================================
