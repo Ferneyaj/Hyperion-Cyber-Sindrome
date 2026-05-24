@@ -83,11 +83,10 @@ La estética visual del juego se inspira en el cyberpunk oscuro: neón sobre neg
 
 ![Glitch del Odio - Imagen Conceptual](docs/moodboard/Glitch_del_odio-Imagen-Conceptual.png)
 
-*Imagen conceptual del Glitch del Odio — villano principal de la narrativa*
 
 </div>
 
-> **Nota:** La imagen conceptual fue generada con IA a partir de una referencia externa. No es obra original del equipo ni forma parte del juego. SSe incluye únicamente como referencia de mood board para ilustrar la dirección estética del proyecto. Está previsto reemplazarla por una ilustración propia del equipo en una versión futura.
+> **Nota:** Imagenes de referencia del juego
 
 ---
 
