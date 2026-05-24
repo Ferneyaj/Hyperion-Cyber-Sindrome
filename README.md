@@ -83,7 +83,8 @@ La estética visual del juego se inspira en el cyberpunk oscuro: neón sobre neg
 
 <div align="center">
 
-![Glitch del Odio - Imagen Conceptual](docs/moodboard/Glitch_del_odio-Imagen-Conceptual.png)
+![Arte del juego](MenuBackground.jpg)
+![Arte del juego](City.jpg)
 
 
 </div>
