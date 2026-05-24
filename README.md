@@ -83,8 +83,8 @@ La estética visual del juego se inspira en el cyberpunk oscuro: neón sobre neg
 
 <div align="center">
 
-![Arte del juego](MenuBackground.jpg)
-![Arte del juego](City.jpg)
+![Arte del juego](docs/moodboard/MenuBackground.jpg)
+![Arte del juego](docs/moodboard/City.jpg)
 
 
 </div>
