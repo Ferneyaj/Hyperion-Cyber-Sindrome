@@ -22,6 +22,8 @@ Sin embargo, la Red ha sido infectada. No por un virus común, sino por una muta
 
 **Tú eres el Dr. Walter D. White**, jefe de psiquiatría cibernética de la corporación **HappyTech**. Tu misión: conectarte al núcleo de la red, escanear los mensajes infectados, salvar la mente de los estudiantes y evitar el colapso total.
 
+![Imagen Promocional - Logo](docs/moodboard/BrandingWalter.jpg)
+
 ---
 
 ## 🎮 Modos de Juego
