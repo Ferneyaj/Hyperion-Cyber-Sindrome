@@ -1,6 +1,6 @@
 <div align="center">
 
-![Logo](assets/logo/logo.png)
+![Logo](assets/logo/Logo.png)
 
 # CYBER SYNDROME: HYPERION
 
