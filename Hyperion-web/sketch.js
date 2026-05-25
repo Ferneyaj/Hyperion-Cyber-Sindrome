@@ -1231,7 +1231,7 @@ function mousePressed() {
     let btnSalirY=btnOpcionesY+btnH3-height*0.01;
 
     if (mouseX>width*0.136&&mouseX<width*0.367&&mouseY>height*0.477&&mouseY<height*0.575) {
-      clickSound(); estadoActual=ESTADO_MENU;
+      clickSound(); estadoActual=ESTADO_MENU; return;
     } else if (mouseX>width*0.119&&mouseX<width*0.385&&mouseY>height*0.610&&mouseY<height*0.735) {
       clickSound(); estadoActual=ESTADO_CREDITOS;
     } else if (mouseX>width*0.119&&mouseX<width*0.385&&mouseY>height*0.750&&mouseY<height*0.910) {
