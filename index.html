@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HYPERION</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #000;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+    }
+    canvas {
+      display: block;
+    }
+    #loading-screen {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      background: #000;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+      color: #fff;
+      font-family: monospace;
+      font-size: 1.5rem;
+      gap: 20px;
+    }
+    #loading-bar-container {
+      width: 300px;
+      height: 8px;
+      background: #222;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    #loading-bar {
+      height: 100%;
+      width: 0%;
+      background: #00ff88;
+      border-radius: 4px;
+      transition: width 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+  <div id="loading-screen">
+    <div>HYPERION</div>
+    <div id="loading-bar-container">
+      <div id="loading-bar"></div>
+    </div>
+    <div id="loading-text" style="font-size:0.9rem; color:#0f8;">Cargando recursos...</div>
+  </div>
+
+  <!-- p5.js core -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.min.js"></script>
+  <!-- p5.sound -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/addons/p5.sound.min.js"></script>
+
+  <script>
+    // Fake loading bar progress while p5 loads
+    let bar = document.getElementById('loading-bar');
+    let loadingScreen = document.getElementById('loading-screen');
+    let prog = 0;
+    let loadInterval = setInterval(() => {
+      prog = Math.min(prog + 2, 90);
+      bar.style.width = prog + '%';
+    }, 80);
+
+    // Hide loading screen once p5 finishes preload
+    window._p5LoadDone = function() {
+      clearInterval(loadInterval);
+      bar.style.width = '100%';
+      setTimeout(() => {
+        loadingScreen.style.display = 'none';
+      }, 300);
+    };
+  </script>
+
+  <!-- Game sketch -->
+  <script src="Hyperion-web/sketch.js"></script>
+
+  <script>
+    // Hook into p5 to detect preload done
+    let _origSetup = window.setup;
+    window.setup = function() {
+      _origSetup();
+      window._p5LoadDone();
+    };
+  </script>
+</body>
+</html>
